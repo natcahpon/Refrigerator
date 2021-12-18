@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Food.FoodInNormal">
+   <children>
+      <ImageView fx:id="back3" fitHeight="800.0" fitWidth="800.0">
+         <image>
+            <Image url="@../resources/back1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="90.0" layoutY="29.0" text="ช่องที่ 1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="246.0" text="ช่องที่ 3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="29.0" text="ช่องที่ 2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="246.0" text="ช่องที่ 4">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="511.0" text="ช่องที่ 5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="504.0" text="ช่องที่ 6">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageslot" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageslot2" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageslot4" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="572.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageslot1" fitHeight="150.0" fitWidth="200.0" layoutX="392.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageslot3" fitHeight="150.0" fitWidth="200.0" layoutX="392.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageslot5" fitHeight="150.0" fitWidth="200.0" layoutX="392.0" layoutY="571.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="nameslot" layoutX="222.0" layoutY="78.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot" layoutX="222.0" layoutY="106.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot" layoutX="222.0" layoutY="132.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot" layoutX="222.0" layoutY="161.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot" layoutX="222.0" layoutY="187.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot" layoutX="222.0" layoutY="216.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button layoutX="306.0" layoutY="53.0" mnemonicParsing="false" onAction="#checkfood10" text="เช็คอาหาร" />
+      <Label fx:id="nameslot1" layoutX="603.0" layoutY="76.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot1" layoutX="603.0" layoutY="104.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot1" layoutX="603.0" layoutY="130.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot1" layoutX="603.0" layoutY="159.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot1" layoutX="603.0" layoutY="185.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot1" layoutX="603.0" layoutY="214.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="nameslot2" layoutX="222.0" layoutY="305.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot2" layoutX="222.0" layoutY="333.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot2" layoutX="222.0" layoutY="359.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot2" layoutX="222.0" layoutY="388.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot2" layoutX="222.0" layoutY="414.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot2" layoutX="222.0" layoutY="443.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="nameslot3" layoutX="603.0" layoutY="303.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot3" layoutX="603.0" layoutY="331.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot3" layoutX="603.0" layoutY="357.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot3" layoutX="603.0" layoutY="386.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot3" layoutX="603.0" layoutY="412.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot3" layoutX="603.0" layoutY="441.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="nameslot4" layoutX="222.0" layoutY="565.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot4" layoutX="222.0" layoutY="593.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot4" layoutX="222.0" layoutY="619.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot4" layoutX="222.0" layoutY="648.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot4" layoutX="222.0" layoutY="674.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot4" layoutX="222.0" layoutY="703.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="nameslot5" layoutX="603.0" layoutY="563.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot5" layoutX="603.0" layoutY="591.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot5" layoutX="603.0" layoutY="617.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot5" layoutX="603.0" layoutY="646.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot5" layoutX="603.0" layoutY="672.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot5" layoutX="603.0" layoutY="701.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button layoutX="649.0" layoutY="53.0" mnemonicParsing="false" onAction="#checkfood11" text="เช็คอาหาร" />
+      <Button layoutX="306.0" layoutY="293.0" mnemonicParsing="false" onAction="#checkfood12" text="เช็คอาหาร" />
+      <Button layoutX="649.0" layoutY="293.0" mnemonicParsing="false" onAction="#checkfood13" text="เช็คอาหาร" />
+      <Button layoutX="306.0" layoutY="536.0" mnemonicParsing="false" onAction="#checkfood14" text="เช็คอาหาร" />
+      <Button layoutX="649.0" layoutY="536.0" mnemonicParsing="false" onAction="#checkfood15" text="เช็คอาหาร" />
+      <Button fx:id="buttonbacknormal" layoutX="692.0" layoutY="768.0" mnemonicParsing="false" onAction="#Onactionbacknormal" text="กลับหน้าเพิ่มอาหาร" />
+   </children>
+</AnchorPane>

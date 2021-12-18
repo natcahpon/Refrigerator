@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #87CEFA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Food.CheckFood">
+   <children>
+      <Label layoutX="256.0" layoutY="23.0" text="อาหารในตู้เย็น">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="viewfood" layoutX="64.0" layoutY="76.0" prefHeight="474.0" prefWidth="572.0">
+         <columns>
+            <TableColumn fx:id="nameco" prefWidth="125.0" text="ชื่อ" />
+            <TableColumn fx:id="categoryco" prefWidth="103.0" text="ประเภท" />
+            <TableColumn fx:id="inputco" prefWidth="95.0" text="วันที่ใส่ตู้เย็น" />
+            <TableColumn fx:id="dateco" prefWidth="95.0" text="วันหมดอายุ" />
+            <TableColumn fx:id="caneatco" prefWidth="157.0" text="กินได้ไหม" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

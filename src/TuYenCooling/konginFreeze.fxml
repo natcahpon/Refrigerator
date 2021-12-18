@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Food.FoodInFreeze">
+   <children>
+      <ImageView fx:id="back4" fitHeight="600.0" fitWidth="600.0">
+         <image>
+            <Image url="@../resources/back1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="256.0" layoutY="47.0" text="ช่องที่ 1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="300.0" text="ช่องที่ 2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageslot" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageslot1" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="449.0" layoutY="264.0" mnemonicParsing="false" onAction="#checkfoodFreeze1" text="เช็คอาหาร" />
+      <Button layoutX="449.0" layoutY="524.0" mnemonicParsing="false" onAction="#checkfoodFreeze2" text="เช็คอาหาร" />
+      <Label fx:id="nameslot" layoutX="344.0" layoutY="112.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot" layoutX="344.0" layoutY="140.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot" layoutX="344.0" layoutY="166.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot" layoutX="344.0" layoutY="195.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot" layoutX="344.0" layoutY="221.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot" layoutX="344.0" layoutY="250.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="nameslot1" layoutX="344.0" layoutY="361.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="categoryslot1" layoutX="344.0" layoutY="389.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="amountslot1" layoutX="344.0" layoutY="415.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="unitslot1" layoutX="344.0" layoutY="444.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="inputslot1" layoutX="344.0" layoutY="470.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="dateslot1" layoutX="344.0" layoutY="499.0" text="ว่าง">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="buttonbackfreeze" layoutX="481.0" layoutY="561.0" mnemonicParsing="false" onAction="#Onactionbackfreeze" text="กลับหน้าเพิ่มอาหาร" />
+   </children>
+</AnchorPane>
